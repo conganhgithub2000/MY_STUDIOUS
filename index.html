@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studious</title>
+
+    <!-- link Owlcarousel  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- link BOOTSTRAP  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- link font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link CSS  -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="top__header">
+      <div class="container-fluid top__header__container">
+        <div class="top__header__item">
+          <ul>
+            <li>
+              <a href="">Have any question ?</a>
+            </li>
+            <li>
+              <i class="mr-1 fa-solid fa-phone"></i>
+              <a href="">+1(21) 234 4567</a>
+            </li>
+            <li>
+              <i class="mr-1 fa-solid fa-envelope"></i>
+              <a href="">mail@example.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="top__header__item">
+          <ul>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="mr-0">
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <header class="container-fluid fixed-top nav-fixed" >
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar__header">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" />
+          <span>Studious</span>
+        </a>
+        <button
+          class="navbar-toggler btn__header"
+          type="button"
+          data-toggle="collapse"
+          data-target="#studiousNavbar"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="studiousNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Blog Posts</a>
+                <a class="dropdown-item" href="#">404 page</a>
+                <a class="dropdown-item" href="#">Landing page</a>
+                <a class="dropdown-item" href="#">Elements page</a>
+              </div>
+            </li>
+            <li class="nav-item nav__mr">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <form class="form-inline my-3 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Enter Keyword"
+              aria-label="Search"
+            />
+            <button class="btn-search" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="navbar-LightDark">
+          <button class="btn__dark" id="btnDark">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="carousel">
+      <div class="owl-carousel">
+        <div class="carousel__bg1">
+          <div class="container carousel__item">
+            <div class="row">
+              <div class="col-6 carousel__left">
+                <h2>Master the Skills to Drive your Career</h2>
+                <button>
+                  Know More
+                  <i class="fa-solid fa-arrow-right ml-2"></i>
+                </button>
+              </div>
+              <div class="col-6"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel__bg2">
+          <div class="container carousel__item">
+            <div class="row">
+              <div class="col-6 carousel__right">
+                <h2>Studious is the best for everyone</h2>
+                <button>
+                  Know More
+                  <i class="fa-solid fa-arrow-right ml-2"></i>
+                </button>
+              </div>
+              <div class="col-6"></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="services container pb-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+          <div class="card services__bg1">
+            <div class="card-body">
+              <i class="fa-solid fa-gears"></i>
+              <h3>
+                <a href="">Engineering & Architecture</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+          <div class="card services__bg2">
+            <div class="card-body">
+              <i class="fa-solid fa-book"></i>
+              <h3>
+                <a href="">Learning Management</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+          <div class="card services__bg3">
+            <div class="card-body">
+              <i class="fa-solid fa-mug-saucer"></i>
+              <h3>
+                <a href="">Business & Management</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-3">
+          <div class="card services__bg4">
+            <div class="card-body">
+              <i class="fa-solid fa-hourglass-half"></i>
+              <h3>
+                <a href="">Artificial Intelligence</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="studious container text-center">
+      <div class="studious__content">
+        <h2 class="title">
+          Welcome to
+          <span>Studious</span>
+        </h2>
+        <div class="row">
+          <div class=".col-12 col-sm-6 col-lg-4 studious__item">
+            <div class="card" >
+              <div class="card-body card__body_dark">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="mt-4">Trending Courses</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                  eiusmod te incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=".col-12 col-sm-6 col-lg-4 studious__item">
+            <div class="card" >
+              <div class="card-body card__body_dark">
+                <i class="fa-solid fa-users"></i>
+                <h3 class="mt-4">Certified Teachers</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                  eiusmod te incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class=".col-12 col-sm-12 col-lg-4 studious__item">
+            <div class="card card__item3" >
+              <div class="card-body card__body_dark">
+                <i class="fa-solid fa-book"></i>
+                <h3 class="mt-4">Books & Library</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                  eiusmod te incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="project__container">
+        <div class="project__content container">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-lg-12 col-xl-8">
+              <div class="row project__item">
+                <div class="col-sm-12 col-md-6 mt-4">
+                  <div class="card project__boder">
+                    <div class="card-body card__body_dark d-flex align-items-center">
+                      <div class="project__icon">
+                        <i class="fa-solid fa-hands-asl-interpreting"></i>
+                      </div>
+                      <div class="project__text">
+                        <h2>Flexible Classes</h2>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 mt-4">
+                  <div class="card project__boder">
+                    <div class="card-body card__body_dark d-flex align-items-center">
+                      <div class="project__icon">
+                        <i class="fa-solid fa-download"></i>
+                      </div>
+                      <div class="project__text">
+                        <h2>Offline Mode</h2>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 mt-4">
+                  <div class="card project__boder">
+                    <div class="card-body card__body_dark d-flex align-items-center">
+                      <div class="project__icon">
+                        <i class="fa-solid fa-headphones"></i>
+                      </div>
+                      <div class="project__text">
+                        <h2>Educator Help</h2>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 mt-4">
+                  <div class="card project__boder">
+                    <div class="card-body card__body_dark d-flex align-items-center">
+                      <div class="project__icon">
+                        <i class="fa-solid fa-circle-play"></i>
+                      </div>
+                      <div class="project__text">
+                        <h2>Online Classes</h2>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PART DUYLE.SALES -->
+    <!-- STATS -->
+    <section class="stats py-sm-5 pt-sm-0 pt-5" id="stats">
+      <div class="container py-md-5 py-4 HomePageStats">
+        <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
+          <h3 class="title title-main">Strength in <span>Numbers</span></h3>
+          <p class="stats_sub mx-auto mt-4 pt-md-2">
+            Similique sunt in culpa qui officia deserunt mollitia animi, id est
+            laborum et dolorum fuga.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="row text-center justify-content-center">
+            <div class="col-lg-3 col-sm-6">
+              <div class="counter_stats">
+                <div
+                  class="counter timer count-title count-number"
+                  data-to="6300"
+                  data-speed="1500"
+                >
+                  6,300
+                </div>
+                <p class="count-text">Learners &amp; counting</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
+              <div class="counter_stats">
+                <div
+                  class="counter timer count-title count-number"
+                  data-to="638"
+                  data-speed="1500"
+                >
+                  638
+                </div>
+                <p class="count-text">Total courses</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <div class="counter_stats">
+                <div
+                  class="counter timer count-title count-number"
+                  data-to="7600"
+                  data-speed="1500"
+                >
+                  7,600
+                </div>
+                <p class="count-text">Successful students</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <div class="counter_stats border-right-0">
+                <div
+                  class="counter timer count-title count-number"
+                  data-to="36"
+                  data-speed="1500"
+                >
+                  36
+                </div>
+                <p class="count-text">Languages</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials_container">
+      <div class="testimonials py-5">
+        <div class="container py-md-5 py-4 HomePageTestimonials">
+          <div class="title-heading-w3 text-center mx-auto mb-5 pb-lg-5">
+            <h3 class="title title-main">Student Community <span>Feedback </span></h3>
+          </div>
+
+          <div class="row content-sec mt-md-5 justify-content-center">
+            <div class="col-lg-4 col-md-6 testi-sections">
+              <div class="testimonials_grid">
+                <span class="fa fa-quote-left"></span>
+                <p class="sub-test">
+                  <q>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit.</q
+                  >
+                </p>
+                <div class="d-grid sub-author-con">
+                  <div class="testi-img-res">
+                    <img
+                      src="./img/testi2.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="testi_grid text-left">
+                    <h5>Petey Cruis</h5>
+                    <p>Caption Here</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-4 testi-sections">
+              <div class="testimonials_grid">
+                <span class="fa fa-quote-left"></span>
+                <p class="sub-test">
+                  <q>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit.</q
+                  >
+                </p>
+                <div class="d-grid sub-author-con">
+                  <div class="testi-img-res">
+                    <img
+                      src="./img/testi1.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="testi_grid text-left">
+                    <h5>Molive Joe</h5>
+                    <p>Caption Here</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 testi-sections">
+              <div class="testimonials_grid">
+                <span class="fa fa-quote-left"></span>
+                <p class="sub-test">
+                  <q>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit.</q
+                  >
+                </p>
+                <div class="d-grid sub-author-con">
+                  <div class="testi-img-res">
+                    <img
+                      src="./img/testi3.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="testi_grid text-left">
+                    <h5>Paige Turner</h5>
+                    <p>Caption Here</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INSTRUCTORS -->
+    <section class="instructors py-sm-5 pb-sm-0 pb-5">
+      <div class="container py-md-5 py-4 HomePageTeam">
+        <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
+          <h3 class="title title-main">World Class <span>Instructors</span></h3>
+        </div>
+
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-3 col-sm-6 instructors__dark ">
+            <div class="instructors-block-single ">
+              <div class="team-grids">
+                <a href="#url">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </a>
+                <div class="team-info">
+                  <a href="#url"> </a>
+                  <div class="social-icons-section">
+                    <a href="#url"> </a
+                    ><a class="fac" href="https://www.facebook.com/w3layouts/">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                      class="twitter mx-2"
+                      href="https://twitter.com/W3layouts"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a
+                      class="google"
+                      href="https://w3layouts.com/tag/email-templates/"
+                    >
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-bottom-block p-4">
+                <h5 class="member mb-1"><a href="#url">Olive Yew</a></h5>
+                <small>Teaches Design</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mt-sm-0 mt-5 instructors__dark">
+            <div class="instructors-block-single">
+              <div class="team-grids">
+                <a href="#url">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </a>
+                <div class="team-info">
+                  <a href="#url"> </a>
+                  <div class="social-icons-section">
+                    <a href="#url"> </a
+                    ><a class="fac" href="https://www.facebook.com/w3layouts/">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                      class="twitter mx-2"
+                      href="https://twitter.com/W3layouts"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a
+                      class="google"
+                      href="https://w3layouts.com/tag/email-templates/"
+                    >
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-bottom-block p-4">
+                <h5 class="member mb-1 active"><a href="#url">Aida Joe</a></h5>
+                <small>UI/UX Designer</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 instructors__dark">
+            <div class="instructors-block-single">
+              <div class="team-grids">
+                <a href="#url">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </a>
+                <div class="team-info">
+                  <a href="#url"> </a>
+                  <div class="social-icons-section">
+                    <a href="#url"> </a
+                    ><a class="fac" href="https://www.facebook.com/w3layouts/">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                      class="twitter mx-2"
+                      href="https://twitter.com/W3layouts"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a
+                      class="google"
+                      href="https://w3layouts.com/tag/email-templates/"
+                    >
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-bottom-block p-4">
+                <h5 class="member mb-1"><a href="#url">Teri Dac</a></h5>
+                <small>Teaches Skills</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 instructors__dark">
+            <div class="instructors-block-single">
+              <div class="team-grids">
+                <a href="#url">
+                  <img
+                    src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </a>
+                <div class="team-info">
+                  <a href="#url"> </a>
+                  <div class="social-icons-section">
+                    <a href="#url"> </a
+                    ><a class="fac" href="https://www.facebook.com/w3layouts/">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a
+                      class="twitter mx-2"
+                      href="https://twitter.com/W3layouts"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a
+                      class="google"
+                      href="https://w3layouts.com/tag/email-templates/"
+                    >
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-bottom-block p-4">
+                <h5 class="member mb-1"><a href="#url">Anton Bne</a></h5>
+                <small>Web Designer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+
+    <section class="contact pb-5">
+      <div class="container pb-md-5 pb-4 mb-5">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-5 about-2-secs-right mb-lg-0 mb-4 text-center">
+            <img
+              src="./img/image.png"
+              alt=""
+              class="img-fluid img-responsive m-auto"
+            />
+          </div>
+          <div class="col-lg-7 about-2-secs-left pr-lg-5">
+            <h3 class="title-contact mb-sm-3 mb-2">
+              Not Sure Where to Begin? <br />Contact Now, We will Help you
+            </h3>
+            <p class="contact_sub">
+              Consectetur adipiscing elit. Aliquam sit amet efficitur
+              tortor.Uspendisse efficitur orci urna. In et augue ornare, tempor
+              massa in, luctus sapien.
+            </p>
+            <div class="mt-4">
+              <a
+                class="btn btn-contact btn-contact-secondary mt-3"
+                href="contact"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer position-relative mt-5 pt-5">
+      <div class="footer-sub">
+        <div class="container">
+          <div class="text-txt">
+            <div class="right-side">
+              <!-- FORM -->
+              <div class="row align-items-center form">
+                <div class="main-midd col-md-6 FooterSubscribe">
+                  <h4 class="title-head mb-lg-2">
+                    Subscribe Us to join our Community
+                  </h4>
+                  <p>Newsletter</p>
+                </div>
+                <div class="main-midd-2 col-md-6 mt-md-0 mt-4">
+                  <form action="" method="post" class="rightside-form">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="Email"
+                      placeholder="Enter your email"
+                    />
+                    <button class="btn" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+              <!-- //form section -->
+            </div>
+
+            <div class="row sub-columns">
+              <div class="col-lg-2 col-sm-6 sub-two-right">
+                <div
+                  id="archives-4"
+                  class="footer-list-before-icon widget_archive"
+                >
+                  <h6 class="">Archives</h6>
+                  <ul>
+                    <li>
+                      <a href="#!">April 2021</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-sm-0 mt-4">
+                <div
+                  id="categories-4"
+                  class="footer-list-before-icon widget_categories"
+                >
+                  <h6 class="">Categories</h6>
+                  <ul>
+                    <li class="cat-item cat-item-2">
+                      <a href="#!">Business</a>
+                    </li>
+                    <li class="cat-item cat-item-3">
+                      <a href="#!">Creative</a>
+                    </li>
+                    <li class="cat-item cat-item-4">
+                      <a href="#!">Design</a>
+                    </li>
+                    <li class="cat-item cat-item-5">
+                      <a href="#!">Food</a>
+                    </li>
+                    <li class="cat-item cat-item-6">
+                      <a href="#!">Industry</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4 FooterContact"
+              >
+                <h6>Contact</h6>
+                <div class="column2">
+                  <div class="href1">
+                    <span class="fa fa-envelope-open"></span>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                  </div>
+
+                  <div class="href2">
+                    <span class="fa fa-phone"></span>
+                    <a href="tel:+44-000-888-999">+44-000-888-999</a>
+                  </div>
+
+                  <div>
+                    <p class="contact-para">
+                      <span class="fa fa-map-marker"></span>
+                      <span> London, 235 Terry, 10001</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-sm-6 sub-one-left ab-right-cont pl-lg-5 mt-lg-0 mt-sm-5 mt-4 FooterAbout"
+              >
+                <h6 class="FooterAbout">About</h6>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab.
+                </p>
+
+                <div class="columns-2 FooterSocial">
+                  <ul class="social">
+                    <li>
+                      <a href="#!"><i class="fab fa-facebook-f"></i></span></a>
+                    </li>
+
+                    <li>
+                      <a href="#!"><i class="fab fa-linkedin-in"></i></span></a>
+                    </li>
+
+                    <li>
+                      <a href="#!"><i class="fab fa-twitter"></i></span></a>
+                    </li>
+
+                    <li>
+                      <a href="#!"><i class="fab fa-google-plus-g"></i></span></a>
+                    </li>
+
+                    <li>
+                      <a href="#!"><i class="fab fa-github"></i></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="copyright-footer text-center">
+        <div class="container">
+          <div class="columns">
+            <p class="CopyRights">
+              © 2023 Studious. All Rights Reserved | WordPress Theme by
+              <a href="https://w3layouts.com/">W3Layouts. </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
+    <span class="fa fa-level-up"></span>
+</button>
+
+    <!-- light--dark -->
+    <script>
+      const body = document.body;
+      const btn_Dark = document.querySelector('#btnDark i');
+      btn_Dark.addEventListener('click', () =>{
+        body.classList.toggle('dark');
+        btn_Dark.classList.toggle('fa-moon');
+        btn_Dark.classList.toggle('fa-sun');
+      })
+    </script>
+
+    <!-- scroll header  -->
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+          document.getElementById("navbar__header").style.padding = "3px 29px";
+
+        } else {
+          document.getElementById("navbar__header").style.padding = "16px 29px";
+        }
+      }
+    </script>
+
+    <!-- link Owlcarousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        items: 1,
+        smartSpeed: 800,
+        dots: false,
+      });
+    </script>
+
+    <!-- Link BOOTSTRAP js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/countupjs/jquery.countup.js"></script>
+    <!-- WAYPOINT -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".counter").countUp();
+    </script>
+  </body>
+</html>
